@@ -25,7 +25,7 @@ public class PractiseSet1 {
         float s3 = num.nextFloat();
         float cgpa = (s1 + s2 + s3)/30;
         System.out.print("The CGPA is "+cgpa);
-        
+        num.close();
 
         //Q3. Write a Java program that asks the user to enter his/her name and greets them with Hello <name>, have a good day text.
         //    Scanner name = new Scanner(System.in);

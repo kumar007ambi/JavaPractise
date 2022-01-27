@@ -20,5 +20,6 @@ public class MarksCalculator {
         float percentage = (result/5);
         System.out.print("Your Percentage is ");
         System.out.print(percentage);
+        ma.close();
     }
 }
